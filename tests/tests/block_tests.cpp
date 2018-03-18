@@ -88,7 +88,7 @@ BOOST_FIXTURE_TEST_CASE(transfer, testing_fixture)
 
 } FC_LOG_AND_RETHROW() }
 
-//Test account creation
+//Simple test of account creation
 BOOST_FIXTURE_TEST_CASE(create_account, testing_fixture)
 { try {
       MKDB(db);
