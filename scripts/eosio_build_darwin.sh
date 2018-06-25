@@ -117,9 +117,9 @@
 					pkg="llvm@4"
 				fi
 
-				if [ $pkg = "openssl" ]; then
-					pkg="openssl@1.0"
-				fi
+# 				if [ $pkg = "openssl" ]; then
+# 					pkg="openssl@1.0"
+# 				fi
 
 				if [ $pkg = "gettext" ]; then
 					PERMISSION_GETTEXT=1
